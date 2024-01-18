@@ -44,7 +44,7 @@ public class User implements Serializable {
         User user = (User) o;
         return Objects.equals(user_Id, user.user_Id);
     }
-
+    
     @Override
     public int hashCode() {
         return Objects.hash(user_Id);
